@@ -1,0 +1,180 @@
+\documentclass[10pt]{article}
+\usepackage[a4paper, left=0.40in, right=0.40in, top=0.25in, bottom=0.15in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\hyphenation{Some-long-word}
+\usepackage{fontawesome}
+%\newcommand*\faMobile{{\FA\symbol{"F10B}}}
+\usepackage{resume}
+\usepackage{ragged2e}
+
+\usepackage{tikz}
+
+\newcommand{\ExternalLink}{%
+    \tikz[x=1.2ex, y=1.2ex, baseline=-0.05ex]{% 
+        \begin{scope}[x=1ex, y=1ex]
+            \clip (-0.1,-0.1) 
+                --++ (-0, 1.2) 
+                --++ (0.6, 0) 
+                --++ (0, -0.6) 
+                --++ (0.6, 0) 
+                --++ (0, -1);
+            \path[draw, 
+                line width = 0.5, 
+                rounded corners=0.5] 
+                (0,0) rectangle (1,1);
+        \end{scope}
+        \path[draw, line width = 0.5] (0.5, 0.5) 
+            -- (1, 1);
+        \path[draw, line width = 0.5] (0.6, 1) 
+            -- (1, 1) -- (1, 0.6);
+        }
+    }
+% \usepackage[utf8]{inputenc}
+% \usepackage[english]{babel}
+% \pagenumbering{arabic}
+
+\begin{document}
+	
+\begin{center}
+	\textbf{\LARGE Anu Varghese }\\[0.5ex]
+
+	\textscale{1.05}{\faPhone \hspace{0.1ex} (425) 306-1387} \hspace{2mm} \Letter\hspace{0.1ex} \href{mailto:anuvarghese024@gmail.com}{anuvarghese024@gmail.com} \hspace{2mm}  \href{https://www.linkedin.com/in/varghese-anu
+}{Linkedin/Anu \ExternalLink}  
+ 
+\end{center}
+\spacedhrule{-1.0ex}{-0.5ex}
+
+
+
+
+\roottitle{EDUCATION}
+
+\headedsection
+{Wichita State University}
+{Wichita , KS, USA}
+{Master of Science in Computer Science}
+{\period{Jan}{2022}{Dec}{2023}}
+
+
+\headedsection
+{Mahatma Gandhi University}
+{Kerala, India}
+{Bachelor of Technology in Computer Science and Engineering}
+{\period{Aug}{2014}{May}{2018}}
+
+
+\spacedhrule{0.8ex}{0.0ex}
+
+\roottitle{SKILLS}
+
+%\begin{indentsection}
+    
+
+\begin{circlist}
+
+          
+   \item {\textbf{Soft Skills}}: Active Learning, confidence, Adaptability, Communication, teamwork, problem solving, work ethics, interpersonal skills
+	
+	\item {\textbf{Cybersecurity}}: access control, incident response, security protocols, cryptography, vulnerability   management, Local and global traffic management, DNS, Wireshark analysis
+	\item {\textbf{Technologies \& platforms}}: Jupyter, Linux terminal, Visual Studio, MS office, MySQL Workbench,load balancers (F5, Citrix Netscalar, Radware Alteon, Pulse Secure) and Firewalls (checkpoint and ASA)
+	\item {\textbf{Programming Languages}}: Python, JavaScript, C, C++, HTML, bash
+ 	\item {\textbf{Cloud Platforms}}: IBM Watson and Microsoft azure
+
+ \end{circlist}
+
+\spacedhrule{0.8ex}{0.0ex}
+
+\roottitle{WORK EXPERIENCE}
+\headedsection
+{\href{https://www.linkedin.com/school/wichita-state-university/}{Wichita State University\ExternalLink}}
+{Kansas, USA}
+{(Graduate Teaching Assistant, School of Computing)}
+{\period{Jan}{2023}{Present}}{
+\vspace{-2.4ex}
+\begin{circlist}
+    \item Evaluating student quizzes, exams, and assignments
+    \item Leading class discussions for enhancing knowledge and learning objectives of students 
+    \item Holding scheduled ofﬁce hours to advise, provide feedback and address assignment related questions 
+
+\end{circlist}
+}
+\headedsection
+{\href{https://www.linkedin.com/company/wipro/}{Wipro \ExternalLink}}
+{Kerala, India}
+{(Network Security Engineer, SOC)}
+{\period{Oct}{2018}{Nov}{2021}}{
+\vspace{-2.4ex}
+\begin{circlist}
+    \item Resolved more than 100 issues within a week by network packet analysis using Linux commands and Wireshark hence reducing security vulnerabilities by 95\%
+    \item Implemented over 20 security changes per week including network traffic access, active directory, and global traffic management as per clients’ requirement which reduced up to 98\% of cyber attacks
+     \item Timely OS upgrades of F5 load balancer, Citrix NetScaler and carried out patches and hotfix installation for load balancers and firewalls which reduced up to 100\% vulnerabilities and bugs
+    \item Created a troubleshooting handbook of load balancer devices and Linux commands for reference to use within the team which considerably reduced the time taken for solving issues on a daily basis
+
+    \item Organized knowledge transfer sessions for new team members in Security Operations Center(SOC) which helped in their smooth on-boarding to the team and project
+    
+\end{circlist}
+}
+
+
+\spacedhrule{0.8ex}{0.0ex}
+
+\roottitle{CERTIFICATIONS \& ACHIEVEMENTS}
+
+{\vspace{-0.4ex}
+    \begin{circlist}
+        \item Microsoft Azure cloud fundamentals AZ-900( March 2021)
+        \item IBM Watson developer V4 (June 2021)
+        \item Kore.ai virtual assistant platform developer (July 2021)
+        \item Applied machine learning, applied plotting and charting - University of Michigan, Ann Arbor (Coursera) (August 2021)
+        \item Deep Learning and Neural Networks by Andrew NG (Coursera) (August 2021)
+        \item Secured Platinum badges in National Cyber League, a cybersecurity competition (April 2023)
+    \end{circlist}
+}
+
+
+
+\spacedhrule{0.8ex}{0.0ex}
+
+\roottitle{ACADEMIC PROJECTS}
+
+
+
+\raggedright {  \textit{Darkweb Forum Analysis}}
+{\hfill{\em \textit{Dec 2022}}}
+{\vspace{0ex}
+\begin{circlist}	
+	    
+            \item \normalfont \justifying{ Used neural networks along with NLP concepts to study the actors involved in “wall street” dark web forum by analyzing the posts on the forum}
+\end{circlist}
+}
+
+\raggedright {  \textit{TOR and non-TOR network traffic classification and analysis}}
+{\hfill {\em \textit{May 2023}}}
+{\vspace{0ex}
+\begin{circlist}	
+	
+            \item \normalfont \justifying{ Used network traffic analysis and machine learning algorithms to classify TOR and non-TOR traffic}
+\end{circlist}
+}
+
+\vspace{0.2ex}
+
+
+
+\spacedhrule{0.8ex}{0.0ex}
+
+
+
+\roottitle{VOLUNTEERING}
+
+{\vspace{-0.2ex}
+    \begin{circlist}
+        \item \justifying{Volunteered for National Digital Literacy Mission, India by teaching basic computer classes for age group 10-55}
+        \item \justifying{Volunteered in Wu's Big Event as part of Wichita State University Community Service Board}
+         \item \justifying{An active member of Wichita University Linux User's group (WuLug)}
+    \end{circlist}
+}
+\spacedhrule{0.8ex}{0.0ex}
+
+\end{document}
